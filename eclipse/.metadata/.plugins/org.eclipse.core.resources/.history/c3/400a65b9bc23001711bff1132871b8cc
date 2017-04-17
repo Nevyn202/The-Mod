@@ -21,17 +21,17 @@ public class SuperHero {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		System.out.println("Pre Init");
+		System.out.println.("Pre Init");
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		System.out.println("Init");
+		System.out.println.("Init");
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		System.out.println("Post Init");
+		System.out.println.("Post Init");
 	}
 }
