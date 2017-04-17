@@ -1,0 +1,8 @@
+package nat.nshm.items;
+
+import net.minecraft.item.Item;
+
+public class ItemDwarfStarIngot extends Item {
+	public ItemDwarfStarIngot() {
+	}
+}
