@@ -16,6 +16,7 @@ public class Reference {
 		STEELINGOT("SteelIngot", "ItemSteelIngot"),
 		UNSTABLEDWARFSTARINGOT("UnstableDwarfStarIngot", "ItemUnstableDwarfStarIngot"),
 		CARBONFIBERMESH("CarbonFiberMesh", "ItemCarbonFiberMesh"),
+		GREENCARBONFIBERMESH("GreenCarbonFiberMesh", "ItemGreenCarbonFiberMesh"),
 		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot");
 
 		private String unlocalizedName;

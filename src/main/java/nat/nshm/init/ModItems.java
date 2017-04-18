@@ -2,6 +2,7 @@ package nat.nshm.init;
 
 import nat.nshm.items.ItemCarbonFiberMesh;
 import nat.nshm.items.ItemDwarfStarIngot;
+import nat.nshm.items.ItemGreenCarbonFiberMesh;
 import nat.nshm.items.ItemIonizedPalladiumIngot;
 import nat.nshm.items.ItemPalladiumIngot;
 import nat.nshm.items.ItemSteelIngot;
@@ -19,18 +20,26 @@ public class ModItems {
 	
 	public static Item CarbonFiberMesh;
 	
+	public static Item GreenCarbonFiberMesh;
+	
 	public static Item PalladiumIngot;
 	
 	public static Item SteelIngot;
 	
 	public static Item IonizedPalladiumIngot;
 	
+	public static Item DwarfStarTippedArrow;
+	
+	public static Item IronRod;
 	
 	public static void init(){
 		DwarfStarIngot = new ItemDwarfStarIngot();
 		UnstableDwarfStarIngot = new ItemUnstableDwarfStarIngot();
 		
+		IronRod = new ItemIronRod();
+		
 		CarbonFiberMesh = new ItemCarbonFiberMesh();
+		GreenCarbonFiberMesh = new ItemGreenCarbonFiberMesh();
 		
 		PalladiumIngot = new ItemPalladiumIngot();
 		
@@ -43,10 +52,12 @@ public class ModItems {
 		GameRegistry.register(UnstableDwarfStarIngot);
 		
 		GameRegistry.register(CarbonFiberMesh);
+		GameRegistry.register(GreenCarbonFiberMesh);
 		
 		GameRegistry.register(PalladiumIngot);
 		
 		GameRegistry.register(SteelIngot);
+		GameRegistry.register(IronRod);
 		
 		GameRegistry.register(IonizedPalladiumIngot);
 		
@@ -56,6 +67,7 @@ public class ModItems {
 		registerRender(UnstableDwarfStarIngot);
 		
 		registerRender(CarbonFiberMesh);
+		registerRender(GreenCarbonFiberMesh);
 		
 		registerRender(PalladiumIngot);
 		
