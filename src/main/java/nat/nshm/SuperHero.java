@@ -1,6 +1,7 @@
 package nat.nshm;
 
 import nat.nshm.init.ModBlocks;
+import nat.nshm.init.ModCrafting;
 import nat.nshm.init.ModItems;
 import nat.nshm.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -38,6 +39,8 @@ public class SuperHero {
 	{
 		System.out.println("Init");
 		proxy.init();
+		
+		ModCrafting.register();
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)

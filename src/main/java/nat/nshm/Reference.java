@@ -13,8 +13,10 @@ public class Reference {
 	public static enum SuperHeroItems {
 		DWARFSTARINGOT("DwarfStarIngot", "ItemDwarfStarIngot"),
 		PALLADIUMINGOT("PalladiumIngot", "ItemPalladiumIngot"),
-		STEELINGOT("PalladiumIngot", "ItemSteelIngot");
-		
+		STEELINGOT("SteelIngot", "ItemSteelIngot"),
+		UNSTABLEDWARFSTARINGOT("UnstableDwarfStarIngot", "ItemUnstableDwarfStarIngot"),
+		CARBONFIBERMESH("CarbonFiberMesh", "ItemCarbonFiberMesh"),
+		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot");
 
 		private String unlocalizedName;
 		private String registryName;
@@ -35,7 +37,11 @@ public class Reference {
 		
 	}
 	public static enum SuperHeroBlocks{
-		DWARFSTARORE("DwarfStarOre", "BlockDwarfStarOre");
+		DWARFSTARORE("DwarfStarOre", "BlockDwarfStarOre"),
+		PALLADIUMORE("PalladiumOre", "BlockPalladiumOre"),
+		DWARFSTARBLOCK("DwarfStarBlock", "BlockDwarfStar"),
+		PALLADIUMBLOCK("PalladiumBlock", "BlockPalladium");
+		
 		
 		private String unlocalizedName;
 		private String registryName;
