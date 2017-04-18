@@ -11,7 +11,9 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "nat.nshm.proxy.ServerProxy";
 	
 	public static enum SuperHeroItems {
-		DWARFSTARINGOT("DwarfStarIngot", "ItemDwarfStarIngot");
+		DWARFSTARINGOT("DwarfStarIngot", "ItemDwarfStarIngot"),
+		PALLADIUMINGOT("PalladiumIngot", "ItemPalladiumIngot"),
+		STEELINGOT("PalladiumIngot", "ItemSteelIngot");
 		
 
 		private String unlocalizedName;
@@ -22,5 +24,35 @@ public class Reference {
 			this.registryName = registryName;
 			
 		}
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+	
+		
 	}
+	public static enum SuperHeroBlocks{
+		DWARFSTARORE("DwarfStarOre", "BlockDwarfStarOre");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		SuperHeroBlocks(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+			
+		}
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+		
+	}
+	
 }

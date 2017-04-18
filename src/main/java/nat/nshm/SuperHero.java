@@ -1,5 +1,7 @@
 package nat.nshm;
 
+import nat.nshm.init.ModBlocks;
+import nat.nshm.init.ModItems;
 import nat.nshm.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -22,12 +24,20 @@ public class SuperHero {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		System.out.println("Pre Init");
+		
+		ModItems.init();
+		ModItems.register();
+		
+		ModBlocks.init();
+		ModBlocks.register();
+		
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
 		System.out.println("Init");
+		proxy.init();
 	}
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)

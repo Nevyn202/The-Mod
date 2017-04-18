@@ -1,0 +1,10 @@
+package nat.nshm.proxy;
+
+public class ClientProxy implements CommonProxy{
+
+	@Override
+	public void init() {
+		
+	}
+
+}
