@@ -20,5 +20,5 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.IronRod),"I  ", " I ", "   ", 'I', Items.IRON_INGOT );
 		
 	}
-	
+		
 }
