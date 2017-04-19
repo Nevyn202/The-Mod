@@ -37,7 +37,7 @@ public class ModItems {
 	public static Item DwarfStarTippedArrow;
 
 	public static Item IronRod;
-
+	//Tools
 	//Armor
 	public static ArmorMaterial DwarfStarArmor = EnumHelper.addArmorMaterial("DwarfStarArmor", "SuperHero:DwarfStar", 60, new int[]{4,9,6,3} , 64, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, (float) 9.0);
 	public static Item dwarfstar_helmet;
@@ -52,7 +52,7 @@ public class ModItems {
 	public static Item palladium_boots;
 
 
-	
+
 
 
 	public static void init(){
