@@ -16,5 +16,5 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.IonizedPalladiumIngot),"CCC", "CIC", "CCC", 'C', Items.REDSTONE, 'I', ModItems.PalladiumIngot );
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.UnstableDwarfStarIngot),"GD", 'C', Items.GUNPOWDER, 'I', ModItems.DwarfStarIngot );
 	}
-	
+		
 }
