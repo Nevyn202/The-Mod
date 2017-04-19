@@ -17,7 +17,8 @@ public class Reference {
 		UNSTABLEDWARFSTARINGOT("UnstableDwarfStarIngot", "ItemUnstableDwarfStarIngot"),
 		CARBONFIBERMESH("CarbonFiberMesh", "ItemCarbonFiberMesh"),
 		GREENCARBONFIBERMESH("GreenCarbonFiberMesh", "ItemGreenCarbonFiberMesh"),
-		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot");
+		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot"),
+		IRONROD("IronRod", "ItemIronRod");
 
 		private String unlocalizedName;
 		private String registryName;
