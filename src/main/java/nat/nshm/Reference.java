@@ -1,15 +1,15 @@
 package nat.nshm;
 
 public class Reference {
-	
+
 	public static final String MOD_ID = "nshm";
 	public static final String NAME = "N&E Superheroes";
 	public static final String VERSION = "2.0";
 	public static final String ACCEPTED_VERSIONS = "[1.10.2]";
-	
+
 	public static final String CLIENT_PROXY_CLASS = "nat.nshm.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "nat.nshm.proxy.ServerProxy";
-	
+
 	public static enum SuperHeroItems {
 		DWARFSTARINGOT("DwarfStarIngot", "ItemDwarfStarIngot"),
 		PALLADIUMINGOT("PalladiumIngot", "ItemPalladiumIngot"),
@@ -18,49 +18,50 @@ public class Reference {
 		CARBONFIBERMESH("CarbonFiberMesh", "ItemCarbonFiberMesh"),
 		GREENCARBONFIBERMESH("GreenCarbonFiberMesh", "ItemGreenCarbonFiberMesh"),
 		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot"),
-		IRONROD("IronRod", "ItemIronRod");
+		IRONROD("IronRod", "ItemIronRod"),
+		DWARFSTARTIPPEDARROW("DwarfStarTippedArrow", "DwarfStarTippedArrow");
 
 		private String unlocalizedName;
 		private String registryName;
-		
+
 		SuperHeroItems(String unlocalizedName, String registryName) {
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = registryName;
-			
+
 		}
 		public String getUnlocalizedName() {
 			return unlocalizedName;
 		}
-		
+
 		public String getRegistryName() {
 			return registryName;
 		}
-	
-		
+
+
 	}
 	public static enum SuperHeroBlocks{
 		DWARFSTARORE("DwarfStarOre", "BlockDwarfStarOre"),
 		PALLADIUMORE("PalladiumOre", "BlockPalladiumOre"),
 		DWARFSTARBLOCK("DwarfStarBlock", "BlockDwarfStar"),
 		PALLADIUMBLOCK("PalladiumBlock", "BlockPalladium");
-		
-		
+
+
 		private String unlocalizedName;
 		private String registryName;
-		
+
 		SuperHeroBlocks(String unlocalizedName, String registryName) {
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = registryName;
-			
+
 		}
 		public String getUnlocalizedName() {
 			return unlocalizedName;
 		}
-		
+
 		public String getRegistryName() {
 			return registryName;
 		}
-		
+
 	}
-	
+
 }
