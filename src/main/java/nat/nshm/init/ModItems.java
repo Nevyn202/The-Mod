@@ -45,6 +45,9 @@ public class ModItems {
 	public static Item DwarfStarTippedArrow;
 
 	public static Item IronRod;
+
+	public static Item QuantumSplicer;
+
 	//Tools Dwarf-Star
 	public static ToolMaterial DwarfStarTool = EnumHelper.addToolMaterial("DwarfStarTool", 3, 2000, 15.0f, 6.0f, 64);
 	public static Item dwarfstar_axe;
@@ -85,6 +88,7 @@ public class ModItems {
 		DwarfStarIngot = new ItemDwarfStarIngot();
 		UnstableDwarfStarIngot = new ItemUnstableDwarfStarIngot();
 		DwarfStarTippedArrow = new ItemDwarfStarTippedArrow();
+		QuantumSplicer = new ItemQuantumSplicer();
 
 		IronRod = new ItemIronRod();
 
@@ -99,7 +103,7 @@ public class ModItems {
 	public static void register(){
 		GameRegistry.register(DwarfStarIngot);
 		GameRegistry.register(UnstableDwarfStarIngot);
-
+		GameRegistry.register(QuantumSplicer);
 		GameRegistry.register(CarbonFiberMesh);
 
 		GameRegistry.register(PalladiumIngot);
@@ -147,6 +151,7 @@ public class ModItems {
 		registerRender(DwarfStarIngot);
 		registerRender(UnstableDwarfStarIngot);
 		registerRender(DwarfStarTippedArrow);
+		registerRender(QuantumSplicer);
 		//Armor Dwarf-Star
 		registerRender(dwarfstar_helmet);
 		registerRender(dwarfstar_chestplate);
