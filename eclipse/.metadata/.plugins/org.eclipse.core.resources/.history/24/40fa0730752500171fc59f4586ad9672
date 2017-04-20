@@ -44,13 +44,13 @@ public class ModItems {
 	public static Item DwarfStarTippedArrow;
 
 	public static Item IronRod;
-	//Tools Dwarf-Star
+	//Tools
 	public static ToolMaterial DwarfStarTool = EnumHelper.addToolMaterial("DwarfStarTool", 3, 2000, 15.0f, 6.0f, 64);
 	public static Item dwarfstar_axe;
 	public static Item dwarfstar_shovel;
 	public static Item dwarfstar_pickaxe;
 	public static Item dwarfstar_hoe;
-	//Palladium Tools
+	
 	public static ToolMaterial PalladiumTool = EnumHelper.addToolMaterial("PalladiumTool", 2, 1500, 7.0f, 5.0f, 64);
 	public static Item palladium_axe;
 	public static Item palladium_shovel;
@@ -106,12 +106,6 @@ public class ModItems {
 		GameRegistry.registerItem(dwarfstar_pickaxe = new ItemModPickAxe("dwarfstar_pickaxe", DwarfStarTool), dwarfstar_pickaxe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_shovel = new ItemModShovel("dwarfstar_shovel", DwarfStarTool), dwarfstar_shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_hoe = new ItemModHoe("dwarfstar_hoe", DwarfStarTool), dwarfstar_hoe.getUnlocalizedName().substring(5));
-		
-		//Palladium Tools
-		GameRegistry.registerItem(palladium_axe = new ItemModAxe("palladium_axe", PalladiumTool), palladium_axe.getUnlocalizedName().substring(5));
-		GameRegistry.registerItem(palladium_pickaxe = new ItemModPickAxe("palladium_pickaxe", PalladiumTool), palladium_pickaxe.getUnlocalizedName().substring(5));
-		GameRegistry.registerItem(palladium_shovel = new ItemModShovel("palladium_shovel", PalladiumTool), palladium_shovel.getUnlocalizedName().substring(5));
-		GameRegistry.registerItem(palladium_hoe = new ItemModHoe("palladium_hoe", PalladiumTool), palladium_hoe.getUnlocalizedName().substring(5));
 		
 		
 	//Dwarf-Star Armor
