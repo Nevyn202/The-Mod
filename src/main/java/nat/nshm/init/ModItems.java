@@ -3,9 +3,14 @@ package nat.nshm.init;
 
 import nat.nshm.items.ItemCarbonFiberMesh;
 import nat.nshm.items.ItemDwarfStarIngot;
+import nat.nshm.items.ItemDwarfStarTippedArrow;
 import nat.nshm.items.ItemIonizedPalladiumIngot;
 import nat.nshm.items.ItemIronRod;
 import nat.nshm.items.ItemModArmor;
+import nat.nshm.items.ItemModAxe;
+import nat.nshm.items.ItemModHoe;
+import nat.nshm.items.ItemModPickAxe;
+import nat.nshm.items.ItemModShovel;
 import nat.nshm.items.ItemPalladiumIngot;
 import nat.nshm.items.ItemSteelIngot;
 import nat.nshm.items.ItemUnstableDwarfStarIngot;
@@ -14,7 +19,9 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemTool;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -38,7 +45,11 @@ public class ModItems {
 
 	public static Item IronRod;
 	//Tools
-	public static ToolMaterial DwarfStar = EnumHelper.addToolMaterial("DwarfStar", 3, 2000, 15.0f, 6.0f, 64);
+	public static ToolMaterial DwarfStarTool = EnumHelper.addToolMaterial("DwarfStarTool", 3, 2000, 15.0f, 6.0f, 64);
+	public static Item dwarfstar_axe;
+	public static Item dwarfstar_shovel;
+	public static Item dwarfstar_pickaxe;
+	public static Item dwarfstar_hoe;
 	//Armor
 	public static ArmorMaterial DwarfStarArmor = EnumHelper.addArmorMaterial("DwarfStarArmor", "SuperHero:DwarfStar", 60, new int[]{4,9,6,3} , 64, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, (float) 9.0);
 	public static Item dwarfstar_helmet;
@@ -81,7 +92,16 @@ public class ModItems {
 		GameRegistry.register(IronRod);
 
 		GameRegistry.register(SteelIngot);
+		
 		GameRegistry.register(DwarfStarTippedArrow);
+		//Dwarf-Star Tools
+		GameRegistry.register(IonizedPalladiumIngot);
+		GameRegistry.registerItem(dwarfstar_axe = new ItemModAxe("dwarfstar_axe", DwarfStarTool), dwarfstar_axe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(dwarfstar_pickaxe = new ItemModPickAxe("dwarfstar_pickaxe", DwarfStarTool), dwarfstar_pickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(dwarfstar_shovel = new ItemModShovel("dwarfstar_shovel", DwarfStarTool), dwarfstar_shovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(dwarfstar_hoe = new ItemModHoe("dwarfstar_hoe", DwarfStarTool), dwarfstar_hoe.getUnlocalizedName().substring(5));
+		
+		
 	//Dwarf-Star Armor
 		GameRegistry.register(IonizedPalladiumIngot);
 		GameRegistry.registerItem(dwarfstar_helmet = new ItemModArmor("dwarfstar_helmet", DwarfStarArmor, 1, EntityEquipmentSlot.HEAD), dwarfstar_helmet.getUnlocalizedName().substring(5));
@@ -109,6 +129,11 @@ public class ModItems {
 		registerRender(palladium_chestplate);
 		registerRender(palladium_leggings);
 		registerRender(palladium_boots);
+		//Tools Dwarf-Star
+		registerRender(dwarfstar_hoe);
+		registerRender(dwarfstar_shovel);
+		registerRender(dwarfstar_pickaxe);
+		registerRender(dwarfstar_axe);
 
 		registerRender(CarbonFiberMesh);
 

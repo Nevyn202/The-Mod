@@ -6,11 +6,20 @@ item.CarbonFiberMesh.name=Carbon Fiber Mesh
 item.UnstableDwarfStarIngot.name=Unstable Dwarf-Star Ingot
 item.GreenCarbonFiberMesh.name=Green Carbon Fiber Mesh
 item.IronRod.name=Iron Rod
+item.DwarfStarTippedArrow.name=Dwarf-Star Tipped Arrow
 
 item.dwarfstar_helmet.name=Dwarf-Star Helm
 item.dwarfstar_chestplate.name=Dwarf-Star Chestpiece
 item.dwarfstar_leggings.name=Dwarf-Star Pants
 item.dwarfstar_boots.name=Dwarf-Star Boots
+
+item.dwarfstar_axe.name=Dwarf-Star Axe
+item.dwarfstar_pickaxe.name=Dwarf-Star Pickaxe
+item.dwarfstar_shovel.name=Dwarf-Star Shovel
+item.dwarfstar_hoe.name=Dwarf-Star Hoe
+
+
+
 
 item.palladiumstar_helmet.name=Palladium Helm
 item.palladium_chestplate.name=Palladium Chestpiece
