@@ -71,7 +71,12 @@ public class ModItems {
 	public static Item palladium_chestplate;
 	public static Item palladium_leggings;
 	public static Item palladium_boots;
-
+	//Carbon Fiber Armor
+	public static ArmorMaterial CarbonArmor = EnumHelper.addArmorMaterial("CarbonArmor", "SuperHero:Carbon", 60, new int[]{2,2,1,2} , 64, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, (float) 1.0);
+	public static Item carbon_helmet;
+	public static Item carbon_chestplate;
+	public static Item carbon_leggings;
+	public static Item carbon_boots;
 
 
 
@@ -101,7 +106,7 @@ public class ModItems {
 		GameRegistry.register(IronRod);
 
 		GameRegistry.register(SteelIngot);
-		
+
 		GameRegistry.register(DwarfStarTippedArrow);
 		//Dwarf-Star Tools
 		GameRegistry.register(IonizedPalladiumIngot);
@@ -110,15 +115,15 @@ public class ModItems {
 		GameRegistry.registerItem(dwarfstar_shovel = new ItemModShovel("dwarfstar_shovel", DwarfStarTool), dwarfstar_shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_hoe = new ItemModHoe("dwarfstar_hoe", DwarfStarTool), dwarfstar_hoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_sword = new ItemModSword("dwarfstar_sword", DwarfStarTool), dwarfstar_sword.getUnlocalizedName().substring(5));
-		
+
 		//Palladium Tools
 		GameRegistry.registerItem(palladium_axe = new ItemModAxe("palladium_axe", PalladiumTool), palladium_axe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_pickaxe = new ItemModPickAxe("palladium_pickaxe", PalladiumTool), palladium_pickaxe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_shovel = new ItemModShovel("palladium_shovel", PalladiumTool), palladium_shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_hoe = new ItemModHoe("palladium_hoe", PalladiumTool), palladium_hoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_sword = new ItemModSword("palladium_sword", PalladiumTool), palladium_sword.getUnlocalizedName().substring(5));
-		
-		
+
+
 	//Dwarf-Star Armor
 		GameRegistry.registerItem(dwarfstar_helmet = new ItemModArmor("dwarfstar_helmet", DwarfStarArmor, 1, EntityEquipmentSlot.HEAD), dwarfstar_helmet.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_chestplate = new ItemModArmor("dwarfstar_chestplate", DwarfStarArmor, 1, EntityEquipmentSlot.CHEST), dwarfstar_chestplate.getUnlocalizedName().substring(5));
@@ -129,6 +134,13 @@ public class ModItems {
 		GameRegistry.registerItem(palladium_chestplate = new ItemModArmor("palladium_chestplate", PalladiumArmor, 1, EntityEquipmentSlot.CHEST), palladium_chestplate.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_leggings = new ItemModArmor("palladium_leggings", PalladiumArmor, 1, EntityEquipmentSlot.LEGS), palladium_leggings.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_boots = new ItemModArmor("palladium_boots", PalladiumArmor, 1, EntityEquipmentSlot.FEET), palladium_boots.getUnlocalizedName().substring(5));
+	//Carbon Fiber Armor
+	GameRegistry.registerItem(carbon_helmet = new ItemModArmor("carbon_helmet", CarbonrArmor, 1, EntityEquipmentSlot.HEAD), dwarfstar_helmet.getUnlocalizedName().substring(5));
+	GameRegistry.registerItem(carbon_chestplate = new ItemModArmor("carbon_chestplate", CarbonArmor, 1, EntityEquipmentSlot.CHEST), dwarfstar_chestplate.getUnlocalizedName().substring(5));
+	GameRegistry.registerItem(carbon_leggings = new ItemModArmor("carbon_leggings", CarbonArmor, 1, EntityEquipmentSlot.LEGS), dwarfstar_leggings.getUnlocalizedName().substring(5));
+	GameRegistry.registerItem(carbon_boots = new ItemModArmor("carbon_boots", CarbonArmor, 1, EntityEquipmentSlot.FEET), dwarfstar_boots.getUnlocalizedName().substring(5));
+
+
 
 	}
 	public static void registerRenders(){

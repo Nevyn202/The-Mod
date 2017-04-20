@@ -33,6 +33,11 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_chestplate),"C C", "CCC", "CCC", 'C', ModItems.PalladiumIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_leggings),"CCC", "C C", "C C", 'C', ModItems.PalladiumIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_boots),"   ", "C C", "C C", 'C', ModItems.PalladiumIngot);
+		//Armor Carbon
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.carbon_helmet),"CCC", "C C", "   ", 'C', ModItems.CarbonFiberMesh);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.carbon_chestplate),"C C", "CCC", "CCC", 'C', ModItems.CarbonFiberMesh);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.carbon_leggings),"CCC", "C C", "C C", 'C', ModItems.CarbonFiberMesh);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.carbon_boots),"   ", "C C", "C C", 'C', ModItems.CarbonFiberMesh);
 
 
 		//Tools Dwarf-Star
