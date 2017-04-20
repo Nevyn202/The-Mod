@@ -17,18 +17,21 @@ public class ModBlocks {
 	public static Block PalladiumOre;
 	public static Block PalladiumBlock;
 	public static Block DwarfStarBlock;
-
+	public static Block DwarfStarExplosive;
+	
 	public static void init(){
 		DwarfStarOre = new BlockDwarfStarOre();
 		PalladiumOre = new BlockPalladiumOre();
 		PalladiumBlock = new BlockPalladium();
 		DwarfStarBlock = new BlockDwarfStar();
+
 	}
 	public static void register(){
 		registerBlock(DwarfStarOre);
 		registerBlock(PalladiumOre);
 		registerBlock(PalladiumBlock);
 		registerBlock(DwarfStarBlock);
+
 
 	}
 
@@ -43,6 +46,7 @@ public class ModBlocks {
 		registerRender(PalladiumOre);
 		registerRender(PalladiumBlock);
 		registerRender(DwarfStarBlock);
+
 	}
 
 	private static void registerRender(Block block){

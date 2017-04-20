@@ -13,6 +13,7 @@ import nat.nshm.items.ItemModPickAxe;
 import nat.nshm.items.ItemModShovel;
 import nat.nshm.items.ItemModSword;
 import nat.nshm.items.ItemPalladiumIngot;
+import nat.nshm.items.ItemQuantumSplicer;
 import nat.nshm.items.ItemSteelIngot;
 import nat.nshm.items.ItemUnstableDwarfStarIngot;
 import net.minecraft.client.Minecraft;
