@@ -19,15 +19,36 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.PalladiumIngot),"D  ", "   ", "   ", 'D', ModBlocks.PalladiumBlock );
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.IronRod),"I  ", " I ", "   ", 'I', Items.IRON_INGOT );
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DwarfStarBlock),"CCC", "CCC", "CCC", 'C', ModItems.DwarfStarIngot);
-GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_helmet),"CCC", "C C", "   ", 'C', ModItems.DwarfStarIngot);
-	GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_chestplate),"C C", "CCC", "CCC", 'C', ModItems.DwarfStarIngot);
-GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_leggings),"CCC", "C C", "C C", 'C', ModItems.DwarfStarIngot);
-	GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_boots),"   ", "C C", "C C", 'C', ModItems.DwarfStarIngot);
-	GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_helmet),"CCC", "C C", "   ", 'C', ModItems.PalladiumIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DwarfStarTippedArrow),"C  ", " I ", "  F", 'C', ModItems.UnstableDwarfStarIngot, 'F', Items.FEATHER, 'I', ModItems.IronRod);
+		
+		
+		//Armor Dwarf-Star
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_helmet),"CCC", "C C", "   ", 'C', ModItems.DwarfStarIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_chestplate),"C C", "CCC", "CCC", 'C', ModItems.DwarfStarIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_leggings),"CCC", "C C", "C C", 'C', ModItems.DwarfStarIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_boots),"   ", "C C", "C C", 'C', ModItems.DwarfStarIngot);
+		
+		//Armor Palladium
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_helmet),"CCC", "C C", "   ", 'C', ModItems.PalladiumIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_chestplate),"C C", "CCC", "CCC", 'C', ModItems.PalladiumIngot);
-	GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_leggings),"CCC", "C C", "C C", 'C', ModItems.PalladiumIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_leggings),"CCC", "C C", "C C", 'C', ModItems.PalladiumIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_boots),"   ", "C C", "C C", 'C', ModItems.PalladiumIngot);
-
+		
+		
+		//Tools Dwarf-Star
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_axe),"CC ", "CS ", " S ", 'C', ModItems.DwarfStarIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_pickaxe),"CCC", " S ", " S ", 'C', ModItems.DwarfStarIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_shovel)," C ", " S ", " S ", 'C', ModItems.DwarfStarIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_hoe),"CC ", " S ", " S ", 'C', ModItems.DwarfStarIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_sword)," C ", " C ", " S ", 'C', ModItems.DwarfStarIngot, 'S', Items.STICK);
+		
+		//Tools Palladium
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_axe),"CC ", "CS ", " S ", 'C', ModItems.PalladiumIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_pickaxe),"CCC", " S ", " S ", 'C', ModItems.PalladiumIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_shovel)," C ", " S ", " S ", 'C', ModItems.PalladiumIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_hoe),"CC ", " S ", " S ", 'C', ModItems.PalladiumIngot, 'S', Items.STICK);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.palladium_sword)," C ", " C ", " S ", 'C', ModItems.PalladiumIngot, 'S', Items.STICK);
+		
 	}
 
 }

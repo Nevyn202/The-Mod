@@ -11,6 +11,7 @@ import nat.nshm.items.ItemModAxe;
 import nat.nshm.items.ItemModHoe;
 import nat.nshm.items.ItemModPickAxe;
 import nat.nshm.items.ItemModShovel;
+import nat.nshm.items.ItemModSword;
 import nat.nshm.items.ItemPalladiumIngot;
 import nat.nshm.items.ItemSteelIngot;
 import nat.nshm.items.ItemUnstableDwarfStarIngot;
@@ -50,13 +51,15 @@ public class ModItems {
 	public static Item dwarfstar_shovel;
 	public static Item dwarfstar_pickaxe;
 	public static Item dwarfstar_hoe;
+	public static Item dwarfstar_sword;
 	//Palladium Tools
 	public static ToolMaterial PalladiumTool = EnumHelper.addToolMaterial("PalladiumTool", 2, 1500, 7.0f, 5.0f, 64);
 	public static Item palladium_axe;
 	public static Item palladium_shovel;
 	public static Item palladium_pickaxe;
 	public static Item palladium_hoe;
-	//Armor
+	public static Item palladium_sword;
+	//Armor Dwarf-Star
 	public static ArmorMaterial DwarfStarArmor = EnumHelper.addArmorMaterial("DwarfStarArmor", "SuperHero:DwarfStar", 60, new int[]{4,9,6,3} , 64, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, (float) 9.0);
 	public static Item dwarfstar_helmet;
 	public static Item dwarfstar_chestplate;
@@ -106,16 +109,17 @@ public class ModItems {
 		GameRegistry.registerItem(dwarfstar_pickaxe = new ItemModPickAxe("dwarfstar_pickaxe", DwarfStarTool), dwarfstar_pickaxe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_shovel = new ItemModShovel("dwarfstar_shovel", DwarfStarTool), dwarfstar_shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_hoe = new ItemModHoe("dwarfstar_hoe", DwarfStarTool), dwarfstar_hoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(dwarfstar_sword = new ItemModSword("dwarfstar_sword", DwarfStarTool), dwarfstar_sword.getUnlocalizedName().substring(5));
 		
 		//Palladium Tools
 		GameRegistry.registerItem(palladium_axe = new ItemModAxe("palladium_axe", PalladiumTool), palladium_axe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_pickaxe = new ItemModPickAxe("palladium_pickaxe", PalladiumTool), palladium_pickaxe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_shovel = new ItemModShovel("palladium_shovel", PalladiumTool), palladium_shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_hoe = new ItemModHoe("palladium_hoe", PalladiumTool), palladium_hoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(palladium_sword = new ItemModSword("palladium_sword", PalladiumTool), palladium_sword.getUnlocalizedName().substring(5));
 		
 		
 	//Dwarf-Star Armor
-		GameRegistry.register(IonizedPalladiumIngot);
 		GameRegistry.registerItem(dwarfstar_helmet = new ItemModArmor("dwarfstar_helmet", DwarfStarArmor, 1, EntityEquipmentSlot.HEAD), dwarfstar_helmet.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_chestplate = new ItemModArmor("dwarfstar_chestplate", DwarfStarArmor, 1, EntityEquipmentSlot.CHEST), dwarfstar_chestplate.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(dwarfstar_leggings = new ItemModArmor("dwarfstar_leggings", DwarfStarArmor, 1, EntityEquipmentSlot.LEGS), dwarfstar_leggings.getUnlocalizedName().substring(5));
@@ -146,6 +150,13 @@ public class ModItems {
 		registerRender(dwarfstar_shovel);
 		registerRender(dwarfstar_pickaxe);
 		registerRender(dwarfstar_axe);
+		registerRender(dwarfstar_sword);
+		//Tools Palladium
+		registerRender(palladium_hoe);
+		registerRender(palladium_shovel);
+		registerRender(palladium_pickaxe);
+		registerRender(palladium_axe);
+		registerRender(palladium_sword);
 
 		registerRender(CarbonFiberMesh);
 
