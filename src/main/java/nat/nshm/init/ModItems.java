@@ -135,7 +135,7 @@ public class ModItems {
 		GameRegistry.registerItem(palladium_leggings = new ItemModArmor("palladium_leggings", PalladiumArmor, 1, EntityEquipmentSlot.LEGS), palladium_leggings.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(palladium_boots = new ItemModArmor("palladium_boots", PalladiumArmor, 1, EntityEquipmentSlot.FEET), palladium_boots.getUnlocalizedName().substring(5));
 	//Carbon Fiber Armor
-	GameRegistry.registerItem(carbon_helmet = new ItemModArmor("carbon_helmet", CarbonrArmor, 1, EntityEquipmentSlot.HEAD), carbon_helmet.getUnlocalizedName().substring(5));
+	GameRegistry.registerItem(carbon_helmet = new ItemModArmor("carbon_helmet", CarbonArmor, 1, EntityEquipmentSlot.HEAD), carbon_helmet.getUnlocalizedName().substring(5));
 	GameRegistry.registerItem(carbon_chestplate = new ItemModArmor("carbon_chestplate", CarbonArmor, 1, EntityEquipmentSlot.CHEST), carbon_chestplate.getUnlocalizedName().substring(5));
 	GameRegistry.registerItem(carbon_leggings = new ItemModArmor("carbon_leggings", CarbonArmor, 1, EntityEquipmentSlot.LEGS), carbon_leggings.getUnlocalizedName().substring(5));
 	GameRegistry.registerItem(carbon_boots = new ItemModArmor("carbon_boots", CarbonArmor, 1, EntityEquipmentSlot.FEET), carbon_boots.getUnlocalizedName().substring(5));

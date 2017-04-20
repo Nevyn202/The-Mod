@@ -15,8 +15,8 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DwarfStarBlock),"CCC", "CCC", "CCC", 'C', ModItems.DwarfStarIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.IonizedPalladiumIngot),"CCC", "CIC", "CCC", 'C', Items.REDSTONE, 'I', ModItems.PalladiumIngot );
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.UnstableDwarfStarIngot),"GD", 'G', Items.GUNPOWDER, 'D', ModItems.DwarfStarIngot );
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DwarfStarIngot, 9),"D  ", "   ", "   ", 'D', ModBlocks.DwarfStarBlock );
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.PalladiumIngot, 9),"D  ", "   ", "   ", 'D', ModBlocks.PalladiumBlock );
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DwarfStarIngot, 9), ModBlocks.DwarfStarBlock );
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.PalladiumIngot, 9), ModBlocks.PalladiumBlock );
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.IronRod),"I  ", " I ", "   ", 'I', Items.IRON_INGOT );
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DwarfStarBlock),"CCC", "CCC", "CCC", 'C', ModItems.DwarfStarIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DwarfStarTippedArrow),"C  ", " I ", "  F", 'C', ModItems.UnstableDwarfStarIngot, 'F', Items.FEATHER, 'I', ModItems.IronRod);
