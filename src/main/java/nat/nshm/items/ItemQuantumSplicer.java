@@ -6,9 +6,9 @@ import net.minecraft.item.Item;
 
 public class ItemQuantumSplicer extends Item {
 
-	public ItemCarbonFiberMesh() {
-		setUnlocalizedName(Reference.SuperHeroItems.CARBONFIBERMESH.getUnlocalizedName());
-		setRegistryName(Reference.SuperHeroItems.CARBONFIBERMESH.getRegistryName());
+	public ItemQuantumSplicer() {
+		setUnlocalizedName(Reference.SuperHeroItems.QUANTUMSPLICER.getUnlocalizedName());
+		setRegistryName(Reference.SuperHeroItems.QUANTUMSPLICER.getRegistryName());
 		setCreativeTab(SuperHero.CREATIVE_Tab);
 	}
 
