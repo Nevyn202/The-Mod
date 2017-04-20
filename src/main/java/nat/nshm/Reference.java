@@ -19,8 +19,8 @@ public class Reference {
 		GREENCARBONFIBERMESH("GreenCarbonFiberMesh", "ItemGreenCarbonFiberMesh"),
 		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot"),
 		IRONROD("IronRod", "ItemIronRod"),
-		DWARFSTARTIPPEDARROW("DwarfStarTippedArrow", "DwarfStarTippedArrow");
-
+		DWARFSTARTIPPEDARROW("DwarfStarTippedArrow", "ItemDwarfStarTippedArrow"),
+		QUANTUMSPLICER("QuantumSplicer", "ItemQuantumSplicer");
 		private String unlocalizedName;
 		private String registryName;
 
