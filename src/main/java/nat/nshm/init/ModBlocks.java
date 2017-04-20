@@ -12,12 +12,12 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
-	
+
 	public static Block DwarfStarOre;
 	public static Block PalladiumOre;
 	public static Block PalladiumBlock;
 	public static Block DwarfStarBlock;
-	
+
 	public static void init(){
 		DwarfStarOre = new BlockDwarfStarOre();
 		PalladiumOre = new BlockPalladiumOre();
@@ -29,9 +29,9 @@ public class ModBlocks {
 		registerBlock(PalladiumOre);
 		registerBlock(PalladiumBlock);
 		registerBlock(DwarfStarBlock);
-		
+
 	}
-	
+
 	private static void registerBlock(Block block) {
 		GameRegistry.register(block);
 		ItemBlock item = new ItemBlock(block);
@@ -40,12 +40,11 @@ public class ModBlocks {
 	}
 	public static void registerRenders(){
 		registerRender(DwarfStarOre);
-		
 		registerRender(PalladiumOre);
 		registerRender(PalladiumBlock);
 		registerRender(DwarfStarBlock);
 	}
-		
+
 	private static void registerRender(Block block){
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
 	}
