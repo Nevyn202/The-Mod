@@ -3,7 +3,7 @@
   "modid": "nshm",
   "name": "Nevyn's Superhero Mod",
   "description": "Example placeholder mod.",
-  "version": "${version}",
+  "version": ".5",
   "mcversion": "1.10.2",
   "url": "",
   "updateUrl": "",
