@@ -21,7 +21,7 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.DwarfStarBlock),"CCC", "CCC", "CCC", 'C', ModItems.DwarfStarIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.DwarfStarTippedArrow),"C  ", " I ", "  F", 'C', ModItems.UnstableDwarfStarIngot, 'F', Items.FEATHER, 'I', ModItems.IronRod);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.CarbonFiberMesh),"C  ", " I ", "   ", 'C', Items.COAL, 'I', Items.STRING);
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.QuantumSplicer),"PDP", "DMD", "PDP", 'P', ModItems.PalladiumIngot, 'M', Items.MAGMA_CREAM, 'D', Items.DIAMOND);
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.QuantumSplicer),"PDP", "DMD", "PDP", 'P', ModItems.PalladiumIngot, 'M', Items.NETHER_STAR, 'D', Items.DIAMOND);
 
 		//Armor Dwarf-Star
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.dwarfstar_helmet),"CCC", "C C", "   ", 'C', ModItems.DwarfStarIngot);

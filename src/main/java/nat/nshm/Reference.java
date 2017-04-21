@@ -21,6 +21,10 @@ public class Reference {
 		IRONROD("IronRod", "ItemIronRod"),
 		DWARFSTARTIPPEDARROW("DwarfStarTippedArrow", "ItemDwarfStarTippedArrow"),
 		QUANTUMSPLICER("QuantumSplicer", "ItemQuantumSplicer");
+		
+		
+		
+		//Init Stuff
 		private String unlocalizedName;
 		private String registryName;
 
@@ -40,12 +44,13 @@ public class Reference {
 
 	}
 	public static enum SuperHeroBlocks{
+		//Blocks
 		DWARFSTARORE("DwarfStarOre", "BlockDwarfStarOre"),
 		PALLADIUMORE("PalladiumOre", "BlockPalladiumOre"),
 		DWARFSTARBLOCK("DwarfStarBlock", "BlockDwarfStar"),
 		PALLADIUMBLOCK("PalladiumBlock", "BlockPalladium");
 
-
+		//Initialization stuff
 		private String unlocalizedName;
 		private String registryName;
 

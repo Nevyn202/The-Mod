@@ -175,7 +175,12 @@ public class ModItems {
 		registerRender(palladium_pickaxe);
 		registerRender(palladium_axe);
 		registerRender(palladium_sword);
-
+		//Armor Carbon Fiber
+		registerRender(carbon_helmet);
+		registerRender(carbon_chestplate);
+		registerRender(carbon_leggings);
+		registerRender(carbon_boots);
+				
 		registerRender(CarbonFiberMesh);
 
 		registerRender(PalladiumIngot);
