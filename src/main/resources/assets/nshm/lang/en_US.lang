@@ -19,6 +19,11 @@ item.carbon_chestplate.name=Carbon Chestpiece
 item.carbon_leggings.name=Carbon Pants
 item.carbon_boots.name=Carbon Boots
 
+item.arrow_helmet.name=Carbon Helm
+item.arrow_chestplate.name=Carbon Chestpiece
+item.arrow_leggings.name=Carbon Pants
+item.arrow_boots.name=Carbon Boots
+
 item.dwarfstar_axe.name=Dwarf-Star Axe
 item.dwarfstar_pickaxe.name=Dwarf-Star Pickaxe
 item.dwarfstar_shovel.name=Dwarf-Star Shovel
