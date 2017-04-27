@@ -42,7 +42,7 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.carbon_leggings),"CCC", "C C", "C C", 'C', ModItems.CarbonFiberMesh);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.carbon_boots),"   ", "C C", "C C", 'C', ModItems.CarbonFiberMesh);
 
-		//Armor Carbon
+		//Armor Arrow
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.arrow_helmet),"CGC", "C C", "   ", 'C', ModItems.CarbonFiberMesh, 'G', ModItems.PalladiumIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.arrow_chestplate),"C C", "CGC", "CCC", 'C', ModItems.CarbonFiberMesh, 'G', ModItems.PalladiumIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.arrow_leggings),"CGC", "C C", "C C", 'C', ModItems.CarbonFiberMesh, 'G', ModItems.PalladiumIngot);
