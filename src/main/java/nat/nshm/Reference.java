@@ -20,10 +20,11 @@ public class Reference {
 		IONIZEDPALLADIUMINGOT("IonizedPalladiumIngot", "ItemIonizedPalladiumIngot"),
 		IRONROD("IronRod", "ItemIronRod"),
 		DWARFSTARTIPPEDARROW("DwarfStarTippedArrow", "ItemDwarfStarTippedArrow"),
-		QUANTUMSPLICER("QuantumSplicer", "ItemQuantumSplicer");
-		
-		
-		
+		QUANTUMSPLICER("QuantumSplicer", "ItemQuantumSplicer"),
+		HEART("Heart", "ItemHeart"),
+		HEARTFRAGMENT("HeartFragment", "ItemHeartFragment");
+
+
 		//Init Stuff
 		private String unlocalizedName;
 		private String registryName;
